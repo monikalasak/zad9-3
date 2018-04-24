@@ -9,7 +9,12 @@ var dinosaurUpperCased = dinosaur.toUpperCase();
 
 console.log (dinosaurUpperCased);
 
-var textCharsAfter = text.replace('Velociraptor');
+var textCharsAfter1 = text.replace('Velociraptor', dinosaurUpperCased);
+console.log(textCharsAfter1);
 
-console.log(textCharsAfter);
-console.log( text.length / 2);
+
+console.log(text.length);
+
+var textCharsAfter3 = textCharsAfter1.substr(0,72.5);
+
+console.log(textCharsAfter3);
